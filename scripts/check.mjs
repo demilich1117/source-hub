@@ -1,0 +1,3 @@
+import {readdir,readFile} from 'node:fs/promises';import path from 'node:path';import {execFileSync} from 'node:child_process';import {verifyCatalog} from '../lib/store.mjs';
+const root=path.resolve(import.meta.dirname,'..');for(const folder of ['','lib','scripts','web','tests'])for(const file of await readdir(path.join(root,folder))){if(/\.(?:mjs|js)$/.test(file))execFileSync(process.execPath,['--check',path.join(root,folder,file)],{stdio:'inherit',windowsHide:true});}
+const result=await verifyCatalog(root,JSON.parse(await readFile(path.join(root,'catalog.json'),'utf8')));console.log(`Syntax and ${result.count} asset hashes: OK`);

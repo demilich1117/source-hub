@@ -1,0 +1,9 @@
+{
+  "name": "source-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Versioned image library for themes, with a local manager and GitHub Pages gallery",
+  "engines": {"node": ">=22"},
+  "scripts": {"start": "node server.mjs", "test": "node --test", "check": "node scripts/check.mjs", "build": "node scripts/build.mjs", "hub": "node scripts/hub.mjs"}
+}

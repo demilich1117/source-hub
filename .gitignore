@@ -1,0 +1,11 @@
+node_modules/
+.local/
+site/
+output/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+catalog.json.*.tmp

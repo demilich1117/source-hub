@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "revision": 24,
+  "assets": [
+    {
+      "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
+      "path": "assets/moonveil-covenant/2.2.4/castle-folio-cfea02fb39805421.webp",
+      "name": "月夜城堡书册",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "cfea02fb39805421ffb45a6387fef7cc1fbd96ccc1278f96e6213de2c569dffc",
+      "bytes": 149366,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 1774,
+      "height": 887,
+      "animated": false,
+      "tags": [
+        "背景",
+        "城堡",
+        "月夜"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：castle-folio.webp；主题变量：--cc-castle-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.122Z"
+    },
+    {
+      "id": "afa3ea53d3374985168d03f7ecb0abb7455c0c1c9c440eded6808b00e86ae1e9",
+      "path": "assets/moonveil-covenant/2.2.4/sleeping-dragon-desktop-764ec95d2d261a21.webp",
+      "name": "伏睡银龙 · 桌面",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "764ec95d2d261a2100d732ffb0fa83ca4896a7c64bceb4df183d44a248be22f5",
+      "bytes": 210836,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 1200,
+      "height": 572,
+      "animated": false,
+      "tags": [
+        "银龙",
+        "桌面",
+        "透明背景"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：sleeping-dragon-desktop.webp；主题变量：--cc-dragon-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.142Z"
+    },
+    {
+      "id": "983ea32cd8e5e23bf03c8d82e9ade70a55430b90fb08530cbd2c652b1ec5498e",
+      "path": "assets/moonveil-covenant/2.2.4/sleeping-dragon-mobile-71e84322bc1ea6c3.webp",
+      "name": "小睡龙 · 手机",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "71e84322bc1ea6c335e68b53a9a2087f965ad9896a0c9d118c6564c57f9f572b",
+      "bytes": 37252,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 400,
+      "height": 238,
+      "animated": false,
+      "tags": [
+        "银龙",
+        "手机",
+        "透明背景"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：sleeping-dragon-mobile.webp；主题变量：--cc-baby-dragon-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.149Z"
+    },
+    {
+      "id": "69d7f27e38c0bedb90a0b5cd32f95438411e19f3938b9363bfa4c62a022a0a32",
+      "path": "assets/moonveil-covenant/2.2.4/writing-frame-4e197fc1ba1afb05.webp",
+      "name": "书写区银饰边框",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "4e197fc1ba1afb0597e39ecce6f72638b6ddbbb86e9951377b472b607a563384",
+      "bytes": 60830,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 187,
+      "animated": false,
+      "tags": [
+        "边框",
+        "输入区",
+        "九切片"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：writing-frame.webp；主题变量：--cc-writing-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.156Z"
+    },
+    {
+      "id": "8155ee72cd4e65ceb46383ba50dc8dd7bdee558359ded45b5e77246bf9504842",
+      "path": "assets/moonveil-covenant/2.2.4/lunar-arc-balanced-bdc7e941caceaa33.webp",
+      "name": "月牙银链",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "bdc7e941caceaa33a8dfbecc94e9017a52dd238f79dd3cdc73d803bfd058e7a6",
+      "bytes": 80246,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 1710,
+      "height": 342,
+      "animated": false,
+      "tags": [
+        "月链",
+        "导航",
+        "透明背景"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：lunar-arc-balanced.webp；主题变量：--cc-arc-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.163Z"
+    },
+    {
+      "id": "4a91102af6324306fc4c8475d2fda526cf37d9319c6aee28f30cdd960cc4b189",
+      "path": "assets/moonveil-covenant/2.2.4/nav-pendant-1bb5831879a34361.webp",
+      "name": "导航银饰吊坠",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "1bb5831879a34361ee5c237451385d785c89d1a79440d46d2092461d6c7f85f4",
+      "bytes": 11246,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 160,
+      "height": 240,
+      "animated": false,
+      "tags": [
+        "导航",
+        "吊坠",
+        "银色"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：nav-pendant.webp；主题变量：--cc-pendant-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.173Z"
+    },
+    {
+      "id": "4775e22f15f298f06a37086af0233ca16e4334914ec2b66e95781b348552d0dc",
+      "path": "assets/moonveil-covenant/2.2.4/violet-slip-95ec2177b42b1fea.webp",
+      "name": "紫色便笺",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "95ec2177b42b1fea1629b71b158fde6cc89c24ff0a8c6a6507768af8b3b923d1",
+      "bytes": 51428,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 1400,
+      "height": 211,
+      "animated": false,
+      "tags": [
+        "消息",
+        "便笺",
+        "九切片"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：violet-slip.webp；主题变量：--cc-slip-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.180Z"
+    },
+    {
+      "id": "c545917d2d9cdfbb1bc3ff9f78770b7cbc23fbede0dbe1073d0895636941f7de",
+      "path": "assets/moonveil-covenant/2.2.4/quote-quill-b9e58f32d4fb547e.webp",
+      "name": "引用羽毛笔",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "b9e58f32d4fb547e064de063bf134fab32ae6204f63b4a71a80f62c520058732",
+      "bytes": 16650,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 144,
+      "height": 432,
+      "animated": false,
+      "tags": [
+        "引用",
+        "羽毛",
+        "透明背景"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：quote-quill.webp；主题变量：--cc-quill-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.187Z"
+    },
+    {
+      "id": "15bb3d9dbf960c2453a0ba57bdde2e5a1d968d9dbc73e8ff2b81d9d5672aef1f",
+      "path": "assets/moonveil-covenant/2.2.4/scroll-dragon-bookmark-149f2869eb972c3e.webp",
+      "name": "银龙月纹书签",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "149f2869eb972c3e1d4ff5ec6c0fd31b0b0bfe154a436f7a40f62cd0f3d51b7e",
+      "bytes": 58434,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 180,
+      "height": 786,
+      "animated": false,
+      "tags": [
+        "滚动条",
+        "书签",
+        "银龙"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：scroll-dragon-bookmark.webp；主题变量：--cc-jewel-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.195Z"
+    },
+    {
+      "id": "f50fe104193ab6c3e9a8977ba4a4f76e8b7c37c223aa22d45fd38e1c8cf4470f",
+      "path": "assets/moonveil-covenant/2.2.4/avatar-talons-f241fc74729f2112.webp",
+      "name": "头像龙爪饰框",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "f241fc74729f21121c7556e7e82bef0a00d2b59fe31b59bab024214bd51d85f3",
+      "bytes": 8752,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 200,
+      "height": 200,
+      "animated": false,
+      "tags": [
+        "头像",
+        "边框",
+        "银色"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：avatar-talons.webp；主题变量：--cc-avatar-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.202Z"
+    },
+    {
+      "id": "363e3e898a2333e6e4c43fe07d722f250e1f06d571d4f8c7ddc3f7fcedd9ea34",
+      "path": "assets/moonveil-covenant/2.2.4/lunar-wax-seal-2fae2cd136ce9fc1.webp",
+      "name": "新月蜡封",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "2fae2cd136ce9fc1053267e1c7a69498537c442303fee0d7a5892f35a7dd83ae",
+      "bytes": 14070,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 144,
+      "height": 219,
+      "animated": false,
+      "tags": [
+        "消息",
+        "蜡封",
+        "月亮"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：lunar-wax-seal.webp；主题变量：--cc-seal-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.209Z"
+    },
+    {
+      "id": "b3b069fad92307f6e49e9044c844b6194e9869d5eaed8e4a5628eb26279a409f",
+      "path": "assets/moonveil-covenant/2.2.4/silver-frame-8e337b5605952e8d.webp",
+      "name": "设置抽屉银框",
+      "collection": "moonveil-covenant",
+      "version": "2.2.4",
+      "hash": "8e337b5605952e8d268cc48cd79b8fe98b4e3c1857c9aa4640b4d38acec5161f",
+      "bytes": 22402,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 400,
+      "height": 400,
+      "animated": false,
+      "tags": [
+        "抽屉",
+        "边框",
+        "银色"
+      ],
+      "note": "月弧浮页 2.2.4 装饰素材。原文件：silver-frame.webp；主题变量：--cc-frame-art。插画由 ImageGen 生成，保留生产版原文件。",
+      "archived": false,
+      "addedAt": "2026-10-08T04:27:25.216Z"
+    }
+  ]
+}

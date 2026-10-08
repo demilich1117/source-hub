@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Source Hub · 素材图书馆</title>
+<meta name="description" content="为酒馆主题整理装饰素材，复制可直接使用的图片链接。">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+<script type="module" src="./app.js"></script>
+</head>
+<body>
+<a class="skip" href="#gallery">跳到素材</a>
+<header class="masthead">
+  <a class="brand" href="./" aria-label="Source Hub 首页"><span class="brand-mark" aria-hidden="true">S<span>H</span></span><span><strong>Source Hub</strong><small>装饰与界面素材库</small></span></a>
+  <div class="header-actions"><span id="mode" class="mode">连接中</span><a id="repo-link" class="quiet-link" target="_blank" rel="noreferrer">GitHub ↗</a><button id="upload-open" class="primary" hidden>＋ 导入素材</button></div>
+</header>
+<div class="layout">
+<aside class="sidebar" aria-label="素材分类">
+  <div class="side-heading">图集 <span id="collection-count"></span></div>
+  <nav id="collections" aria-label="选择图集"></nav>
+  <div class="side-note"><span class="small-label">留住每一版灵感</span><p>图片按图集与版本收纳。<br>改过的素材，拥有新的地址。</p></div>
+  <details class="guide"><summary>使用与发布 <span aria-hidden="true">↗</span></summary><p>选中素材，复制直链或 CSS，粘贴到酒馆美化工作台的 URL 输入框。</p><p id="publish-help">正在读取使用说明…</p><a id="readme-link" target="_blank" rel="noreferrer">查看完整说明 ↗</a></details>
+</aside>
+<main>
+  <section class="intro">
+    <div><p class="eyebrow">THE ASSET LIBRARY</p><h1 id="library-title">所有素材<span class="title-dot">.</span></h1><p id="subtitle">给每一张装饰，一个稳定的地址。</p></div>
+    <div class="library-index" aria-hidden="true"><span>LIBRARY</span><strong id="index-count">—</strong></div>
+  </section>
+  <section class="toolbar" aria-label="筛选素材">
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索名称、标签、版本…" aria-label="搜索素材"></label>
+    <label class="select-wrap"><span class="sr-only">版本</span><select id="version"><option value="">所有版本</option></select></label>
+    <label class="select-wrap"><span class="sr-only">格式</span><select id="type"><option value="">所有格式</option><option value="webp">WebP</option><option value="png">PNG</option><option value="jpg">JPEG</option><option value="gif">GIF</option></select></label>
+    <label class="select-wrap"><span class="sr-only">排序</span><select id="sort"><option value="recent">最近入库</option><option value="name">按名称</option><option value="size">按体积</option></select></label>
+  </section>
+  <div class="gallery-meta"><p id="result-count" role="status">正在读取素材…</p><div class="view-options"><label id="archive-option" class="check" hidden><input id="show-archived" type="checkbox">含归档</label><span class="bg-label">预览底色</span><div class="swatches" role="group" aria-label="预览底色"><button class="swatch dark" data-tone="dark" aria-label="深色底" aria-pressed="true"></button><button class="swatch light" data-tone="light" aria-label="浅色底" aria-pressed="false"></button><button class="swatch checker" data-tone="checker" aria-label="透明棋盘底" aria-pressed="false"></button></div></div></div>
+  <div id="load-error" class="notice error" role="alert" hidden><p id="load-error-text"></p><button id="reload">重新加载</button></div>
+  <div id="empty" class="empty" hidden><span aria-hidden="true">◇</span><h2>这里还没有素材</h2><p id="empty-text">导入第一张图片，开始整理你的图集。</p><button id="clear-filters">清除筛选</button></div>
+  <div id="gallery" class="gallery" data-tone="dark" tabindex="-1"></div>
+  <footer class="library-footer"><span>为主题收集，也为下一次创作留存。</span><span>ORIGINAL FILES · STABLE LINKS</span></footer>
+</main>
+</div>
+
+<dialog id="detail" class="detail-dialog" aria-labelledby="detail-title">
+<div class="dialog-top"><span class="small-label">素材详情</span><button class="close" data-close="detail" aria-label="关闭素材详情">×</button></div>
+<div class="detail-grid"><div class="detail-preview" data-tone="dark"><img id="detail-image" alt=""><span id="detail-dimensions" class="preview-caption"></span></div>
+<section class="detail-info"><p id="detail-collection" class="eyebrow"></p><h2 id="detail-title"></h2><p id="detail-meta" class="muted"></p><p id="detail-note"></p><div id="detail-tags" class="tags"></div>
+<div class="link-section"><label for="link-mode">引用地址</label><select id="link-mode"><option value="raw">GitHub Raw · 直链</option><option value="pages">GitHub Pages · 直链</option><option value="pinned">固定提交 · 锁定版本</option><option value="local">本地 · 仅本机预览</option></select><textarea id="link-value" readonly rows="3" aria-label="素材链接"></textarea><p id="link-hint" class="field-hint"></p><div class="copy-actions"><button id="copy-url" class="primary">复制直链</button><button id="copy-css">复制 CSS</button><button id="copy-md" class="quiet">Markdown</button></div></div>
+<details id="edit-section" class="edit-section" hidden><summary>编辑素材信息</summary><form id="edit-form"><label>显示名称<input id="edit-name" maxlength="120" required></label><label>标签 <span class="field-hint">逗号分隔，最多 12 个</span><input id="edit-tags" maxlength="380" placeholder="边框, 银色, 透明背景"></label><label>备注<textarea id="edit-note" maxlength="1000" rows="3"></textarea></label><div class="form-actions"><button id="edit-save" class="primary" type="submit">保存信息</button><button id="archive-button" type="button" class="quiet">归档素材</button></div><p id="edit-error" class="form-error" role="alert"></p></form></details>
+<p id="asset-path" class="asset-path"></p>
+</section></div>
+</dialog>
+
+<dialog id="upload" class="upload-dialog" aria-labelledby="upload-title">
+<div class="dialog-top"><span class="small-label">IMPORT ASSETS</span><button class="close" data-close="upload" aria-label="关闭导入">×</button></div>
+<h2 id="upload-title">让新素材入库<span class="title-dot">.</span></h2><p class="muted">保留原文件，自动识别尺寸与格式，相同内容不会重复入库。</p>
+<form id="upload-form">
+<div class="form-row"><label>图集<input id="upload-collection" list="collection-options" placeholder="例如 moonveil-covenant" pattern="[a-z0-9][a-z0-9_-]{0,59}" maxlength="60" required><datalist id="collection-options"></datalist></label><label>版本<input id="upload-version" placeholder="例如 2.2.4" pattern="[a-z0-9][a-z0-9._-]{0,39}" maxlength="40" required></label></div>
+<p class="field-hint">图集使用小写字母、数字、短横线；版本可包含点。入库后地址保持不变。</p>
+<label id="drop-zone" class="drop-zone"><span class="drop-symbol" aria-hidden="true">↑</span><strong>选择图片，或拖到这里</strong><span>PNG / JPEG / WebP / GIF · 单张上限 32 MiB</span><input id="upload-files" type="file" multiple accept="image/png,image/jpeg,image/webp,image/gif,.png,.jpg,.jpeg,.webp,.gif"></label>
+<p id="selection-count" class="field-hint">尚未选择文件</p><ul id="upload-results" class="upload-results" aria-live="polite"></ul><p id="upload-error" class="form-error" role="alert"></p>
+<div class="upload-footer"><p>导入保存到本机仓库，<br>提交并推送后才会公开。</p><button id="upload-submit" class="primary" type="submit" disabled>导入素材</button></div>
+</form>
+</dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+</body></html>
