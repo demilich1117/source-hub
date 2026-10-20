@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 42,
+  "revision": 43,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -463,6 +463,24 @@
       "note": "Blood Altar 0.2 原创 imagegen 生产素材；固定版本与内容哈希。",
       "archived": false,
       "addedAt": "2026-10-12T23:13:43.714Z"
+    },
+    {
+      "id": "5bfe765b61cd187843b5e0307b80396ea91e8697a0a3071b82ae251677c2d1e2",
+      "path": "assets/silent-prince/2.0.0/white-elm-a1bc04b83cf5ac06.png",
+      "name": "white-elm.png",
+      "collection": "silent-prince",
+      "version": "2.0.0",
+      "hash": "a1bc04b83cf5ac06c92aba8b497976cf2a2d16bb9b0bc70e7a0cdec0024911d3",
+      "bytes": 3338894,
+      "ext": "png",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "animated": false,
+      "tags": [],
+      "note": "",
+      "archived": false,
+      "addedAt": "2026-10-20T02:45:00.551Z"
     }
   ]
 }
