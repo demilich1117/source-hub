@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 45,
+  "revision": 47,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -505,6 +505,29 @@
       "note": "为不夜街・バブル主题从零生成的背景。红色一番街入口、密集竖招牌、80年代出租车与香槟橱窗；采用硬边赛璐璐阴影和手绘结构线。原始 PNG，1536×1024。明暗柔化由主题 CSS 控制。",
       "archived": false,
       "addedAt": "2026-10-23T02:05:37.813Z"
+    },
+    {
+      "id": "14f40c5ad7330d5d1ee51b2b728a21d85597007b8be2d3c1fd27f4bbd89b7999",
+      "path": "assets/bubble-kabukicho/0.2.0/banknote-engraved-frame-d428b937a2e74053.png",
+      "name": "不夜街・バブル — 万円雕版纸钞边框",
+      "collection": "bubble-kabukicho",
+      "version": "0.2.0",
+      "hash": "d428b937a2e740535eee361098436a8f3bca355f6f26835f07305476acb7f228",
+      "bytes": 3196369,
+      "ext": "png",
+      "mime": "image/png",
+      "width": 2172,
+      "height": 724,
+      "animated": false,
+      "tags": [
+        "纸钞",
+        "消息边框",
+        "九切片",
+        "雕版"
+      ],
+      "note": "从用户指定的纸钞消息框视觉生成的空白 UI 边框，2172×724。没有肖像或文字，原头像和文字由主题原生叠加。九切片取上/下180、左/右240像素，四角固定，边缘循环，长文不纵向拉伸整图。",
+      "archived": false,
+      "addedAt": "2026-10-23T02:20:26.948Z"
     }
   ]
 }
