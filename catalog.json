@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 43,
+  "revision": 45,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -481,6 +481,30 @@
       "note": "",
       "archived": false,
       "addedAt": "2026-10-20T02:45:00.551Z"
+    },
+    {
+      "id": "5c95df8f6fde617779d48d5089d0206de1969776d1c262553a0a9137f2b59963",
+      "path": "assets/bubble-kabukicho/0.2.0/background-v4-kabukicho-comic-cc8cc5bdb235e077.png",
+      "name": "不夜街・バブル — 漫画歌舞伎町 V4",
+      "collection": "bubble-kabukicho",
+      "version": "0.2.0",
+      "hash": "cc8cc5bdb235e077c06fb3a3e2fcaba58e7df136c1e5051dae3b70c66805e197",
+      "bytes": 2909958,
+      "ext": "png",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "animated": false,
+      "tags": [
+        "背景",
+        "歌舞伎町",
+        "二维漫画",
+        "1980s",
+        "バブル"
+      ],
+      "note": "为不夜街・バブル主题从零生成的背景。红色一番街入口、密集竖招牌、80年代出租车与香槟橱窗；采用硬边赛璐璐阴影和手绘结构线。原始 PNG，1536×1024。明暗柔化由主题 CSS 控制。",
+      "archived": false,
+      "addedAt": "2026-10-23T02:05:37.813Z"
     }
   ]
 }
