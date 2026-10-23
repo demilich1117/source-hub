@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 47,
+  "revision": 48,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -528,6 +528,24 @@
       "note": "从用户指定的纸钞消息框视觉生成的空白 UI 边框，2172×724。没有肖像或文字，原头像和文字由主题原生叠加。九切片取上/下180、左/右240像素，四角固定，边缘循环，长文不纵向拉伸整图。",
       "archived": false,
       "addedAt": "2026-10-23T02:20:26.948Z"
+    },
+    {
+      "id": "182659c88cd96c46964f10d3cd89c995413fa11a135d07a6a8f9bcd8e2878a73",
+      "path": "assets/bubble-kabukicho/0.3.0/kabukicho-comic-v5-fabb3407ea5b4d91.png",
+      "name": "kabukicho-comic-v5.png",
+      "collection": "bubble-kabukicho",
+      "version": "0.3.0",
+      "hash": "fabb3407ea5b4d9179606587645f6d1e72b45473232907612383b3a10aa044b9",
+      "bytes": 2647346,
+      "ext": "png",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "animated": false,
+      "tags": [],
+      "note": "",
+      "archived": false,
+      "addedAt": "2026-10-23T03:13:25.057Z"
     }
   ]
 }
