@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 63,
+  "revision": 65,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -816,6 +816,42 @@
       "note": "",
       "archived": false,
       "addedAt": "2026-10-26T14:16:02.698Z"
+    },
+    {
+      "id": "305b264fe4f153ef67b6943be68f8ed9812cbcf77d4b3da12c231e1eac175d54",
+      "path": "assets/p5-phantom/1.5.0/avatar-cut-in-wide-v2-65482056bfa0e468.png",
+      "name": "avatar-cut-in-wide-v2.png",
+      "collection": "p5-phantom",
+      "version": "1.5.0",
+      "hash": "65482056bfa0e468862650558ee996bba3804a026832f8ad91ec75d0d2d07ce1",
+      "bytes": 663484,
+      "ext": "png",
+      "mime": "image/png",
+      "width": 2172,
+      "height": 724,
+      "animated": false,
+      "tags": [],
+      "note": "",
+      "archived": false,
+      "addedAt": "2026-10-27T06:19:03.121Z"
+    },
+    {
+      "id": "92676e170f059821d5703e5561e6426a6a1d490d042b19d783015221f63353c2",
+      "path": "assets/p5-phantom/1.5.0/tarot-chariot-v1-1c5dda070e232791.webp",
+      "name": "tarot-chariot-v1.webp",
+      "collection": "p5-phantom",
+      "version": "1.5.0",
+      "hash": "1c5dda070e232791505544d5d716a686e70d387ac914511854881a887acfd37f",
+      "bytes": 154146,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 512,
+      "height": 768,
+      "animated": false,
+      "tags": [],
+      "note": "",
+      "archived": false,
+      "addedAt": "2026-10-27T06:19:03.308Z"
     }
   ]
 }
