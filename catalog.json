@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 65,
+  "revision": 67,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -852,6 +852,29 @@
       "note": "",
       "archived": false,
       "addedAt": "2026-10-27T06:19:03.308Z"
+    },
+    {
+      "id": "735b35f00b19d60cbc50fe379f0db66332686a7aeb37a097a2be54b1819b7aae",
+      "path": "assets/p5-phantom/1.5.2/avatar-full-slash-v1-d0e277371952d550.png",
+      "name": "P5 · 全宽撕裂特写 1.5.2",
+      "collection": "p5-phantom",
+      "version": "1.5.2",
+      "hash": "d0e277371952d5508a1e1f2bb6b22917e850a345d9c048143ced97f557e365e0",
+      "bytes": 639583,
+      "ext": "png",
+      "mime": "image/png",
+      "width": 2172,
+      "height": 724,
+      "animated": false,
+      "tags": [
+        "P5",
+        "头像",
+        "全宽裂口",
+        "透明装饰"
+      ],
+      "note": "内置ImageGen全新绘制。右80%为2.4比例人物框，左20%为可伸展连接段；不含人物、用户聊天或参考游戏截图。A长裂口为主，少量红色碎片。",
+      "archived": false,
+      "addedAt": "2026-10-27T07:43:24.331Z"
     }
   ]
 }
