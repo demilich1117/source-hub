@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 67,
+  "revision": 68,
   "assets": [
     {
       "id": "41fbfcf8b117781b779e457d87d1abf17a72c78ec4b14c7b6a78deb8dcdd433b",
@@ -875,6 +875,24 @@
       "note": "内置ImageGen全新绘制。右80%为2.4比例人物框，左20%为可伸展连接段；不含人物、用户聊天或参考游戏截图。A长裂口为主，少量红色碎片。",
       "archived": false,
       "addedAt": "2026-10-27T07:43:24.331Z"
+    },
+    {
+      "id": "108d09b30f9767c0dfb7a8816defd91d654741d43d8a5220f5ba286b8b7974c1",
+      "path": "assets/kuonji-seven-wonders/1.1/asakusa-last-train-d91643d02c431c19.webp",
+      "name": "asakusa-last-train.webp",
+      "collection": "kuonji-seven-wonders",
+      "version": "1.1",
+      "hash": "d91643d02c431c19d60a5f55356ed5845c5c3becc5e37c4225bd13e6e69e1860",
+      "bytes": 180546,
+      "ext": "webp",
+      "mime": "image/webp",
+      "width": 1200,
+      "height": 800,
+      "animated": false,
+      "tags": [],
+      "note": "",
+      "archived": false,
+      "addedAt": "2026-11-07T10:52:28.295Z"
     }
   ]
 }
